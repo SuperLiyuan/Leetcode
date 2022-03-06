@@ -30,7 +30,7 @@ Runnder {
 //        MirrorTree_27 m = new MirrorTree_27();
 //        TreeNode res = m.mirrorTree(t);
 
-        int[] security = {5,6,3,3,5,6,2};
+        int[] security = {5,3,3,3,5,6,2};
         //int[] security = {1,1,1,1,1};
         int time = 2;
         GoodDaysToRobBank_2100.run(security, time);

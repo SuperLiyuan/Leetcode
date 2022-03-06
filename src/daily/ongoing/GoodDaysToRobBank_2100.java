@@ -13,31 +13,22 @@ public class GoodDaysToRobBank_2100 {
             return resList;
         }
 
-
-        for(int i=time;i<totalDay-time-1;i++){
-          int j;
-          for( j=0;j<time;j++){
-              //increase
-              if(security[i-time+j] < security[i-time+j+1]){
-                  break;
-              }
-          }
-          if(j<time){
-              continue;
-          }
-
-          int k;
-          for(k=0;k<time;k++){
-              //decrease
-              if(security[i+k] > security[i+k+1]){
-                  break;
-              }
-          }
-
-          if(k==time){
-              resList.add(i);
-          }
+        int[] left = new int[totalDay];
+        int[] right = new int[totalDay];
+        for(int i=1;i<totalDay;i++){
+            if(security[i-1]>=security[i]){
+                left[i]=left[i-1]+1;
+            }
+            if(security[totalDay-i]>=security[totalDay-i-1]){
+                right[totalDay-i-1] = right[totalDay-i]+1;
+            }
         }
+        for(int i=0;i<totalDay;i++){
+            if(left[i]>=time && right[i]>=time){
+                resList.add(i);
+            }
+        }
+
         return resList;
 
 
