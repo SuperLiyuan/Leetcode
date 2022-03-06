@@ -1,28 +1,40 @@
-import Utils.ListNodeInput;
-import leetcode.finished.FindCircleNum_547;
-import leetcode.finished.LevelOrder_102;
-import leetcode.finished.Partition_86;
-import model.TreeNode;
+import daily.ongoing.GoodDaysToRobBank_2100;
 
 public class
 Runnder {
 
     public static void main(String[] args){
+//
+//        MinStack_30 m = new MinStack_30();
+//        m.push(2147483646);
+//        m.push(2147483646);
+//        m.push(2147483647);
+//        m.top();
+//        m.pop();
+//        m.min();
+//        m.pop();
+//        m.min();
+//        m.pop();
+//        m.push(2147483647);
+//        m.top();
+//        m.min();
+//        m.push(-2147483646);
+//        m.top();
+//        m.min();
+//        m.pop();
+//        m.min();
 
+//        TreeNode t = new TreeNode(2);
+//        t.left = new TreeNode(3);
+//        t.left.left = new TreeNode(1);
+//        MirrorTree_27 m = new MirrorTree_27();
+//        TreeNode res = m.mirrorTree(t);
 
-        TreeNode t =new TreeNode(3);
-        t.left =new TreeNode(9);
-        t.right = new TreeNode(20);
-        t.right.left = new TreeNode(15);
-        t.right.right = new TreeNode(7);
-        LevelOrder_102.levelOrder(t);
+        int[] security = {5,6,3,3,5,6,2};
+        //int[] security = {1,1,1,1,1};
+        int time = 2;
+        GoodDaysToRobBank_2100.run(security, time);
 
-        String nodeInput = "1->4->3->2->5->2";
-        Partition_86.run(ListNodeInput.run(nodeInput),3);
-
-
-        int[][] i= {{1,1,0},{1,1,0},{0,0,1}};
-        FindCircleNum_547.run(i);
     }
 
 }
