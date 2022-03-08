@@ -35,7 +35,8 @@ Runnder {
 //        int time = 2;
 //        GoodDaysToRobBank_2100.run(security, time);
 
-        String s = "**|**|***|";
+        String s =
+                "**|**|***|";
         int[][] t = {{2,5},{5,9}};
 
         PlatesBetweenCandles_2055.run(s,t);
