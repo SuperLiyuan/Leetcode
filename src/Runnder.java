@@ -1,4 +1,4 @@
-import daily.ongoing.GoodDaysToRobBank_2100;
+import daily.ongoing.PlatesBetweenCandles_2055;
 
 public class
 Runnder {
@@ -30,10 +30,16 @@ Runnder {
 //        MirrorTree_27 m = new MirrorTree_27();
 //        TreeNode res = m.mirrorTree(t);
 
-        int[] security = {5,3,3,3,5,6,2};
-        //int[] security = {1,1,1,1,1};
-        int time = 2;
-        GoodDaysToRobBank_2100.run(security, time);
+//        int[] security = {5,3,3,3,5,6,2};
+//        //int[] security = {1,1,1,1,1};
+//        int time = 2;
+//        GoodDaysToRobBank_2100.run(security, time);
+
+        String s = "**|**|***|";
+        int[][] t = {{2,5},{5,9}};
+
+        PlatesBetweenCandles_2055.run(s,t);
+
 
     }
 
