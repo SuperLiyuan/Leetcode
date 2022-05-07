@@ -1,3 +1,4 @@
+import daily.ongoing.MinMutation_433;
 import daily.ongoing.PlatesBetweenCandles_2055;
 
 public class
@@ -35,13 +36,10 @@ Runnder {
 //        int time = 2;
 //        GoodDaysToRobBank_2100.run(security, time);
 
-        String s =
-                "**|**|***|";
-        int[][] t = {{2,5},{5,9}};
-
-        PlatesBetweenCandles_2055.run(s,t);
-
-
+        String start = "AAAAACCC";
+        String end = "AACCCCCC";
+        String[] bank = {"AAAACCCC","AAACCCCC","AACCCCCC"};
+        MinMutation_433.run(start, end, bank);
     }
 
 }
