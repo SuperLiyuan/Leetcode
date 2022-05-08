@@ -1,4 +1,4 @@
-package daily.ongoing;
+package daily.ongoing.finished;
 
 import java.util.ArrayDeque;
 import java.util.Queue;

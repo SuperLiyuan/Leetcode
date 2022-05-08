@@ -1,5 +1,4 @@
-import daily.ongoing.MinMutation_433;
-import daily.ongoing.PlatesBetweenCandles_2055;
+import daily.ongoing.finished.FindDuplicates_442;
 
 public class
 Runnder {
@@ -36,10 +35,8 @@ Runnder {
 //        int time = 2;
 //        GoodDaysToRobBank_2100.run(security, time);
 
-        String start = "AAAAACCC";
-        String end = "AACCCCCC";
-        String[] bank = {"AAAACCCC","AAACCCCC","AACCCCCC"};
-        MinMutation_433.run(start, end, bank);
+        int[] nums = {4,3,2,7,8,2,3,1};
+        FindDuplicates_442.run(nums);
     }
 
 }
