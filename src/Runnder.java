@@ -1,42 +1,13 @@
-import daily.ongoing.finished.FindDuplicates_442;
+import daily.ongoing.finished.OneEditAway_01_05;
+import sword.finished.ongoing.IsPalindrome_018;
 
 public class
 Runnder {
 
     public static void main(String[] args){
-//
-//        MinStack_30 m = new MinStack_30();
-//        m.push(2147483646);
-//        m.push(2147483646);
-//        m.push(2147483647);
-//        m.top();
-//        m.pop();
-//        m.min();
-//        m.pop();
-//        m.min();
-//        m.pop();
-//        m.push(2147483647);
-//        m.top();
-//        m.min();
-//        m.push(-2147483646);
-//        m.top();
-//        m.min();
-//        m.pop();
-//        m.min();
 
-//        TreeNode t = new TreeNode(2);
-//        t.left = new TreeNode(3);
-//        t.left.left = new TreeNode(1);
-//        MirrorTree_27 m = new MirrorTree_27();
-//        TreeNode res = m.mirrorTree(t);
-
-//        int[] security = {5,3,3,3,5,6,2};
-//        //int[] security = {1,1,1,1,1};
-//        int time = 2;
-//        GoodDaysToRobBank_2100.run(security, time);
-
-        int[] nums = {4,3,2,7,8,2,3,1};
-        FindDuplicates_442.run(nums);
+        IsPalindrome_018 isPalindrome_018 = new IsPalindrome_018();
+        isPalindrome_018.run("op");
     }
 
 }
