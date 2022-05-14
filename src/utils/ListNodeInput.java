@@ -6,7 +6,7 @@ public class ListNodeInput {
 
     public static ListNode run(String input){
 
-        String[] splitStr = input.split("->");
+        String[] splitStr = input.split(",");
 
         ListNode root = new ListNode(0);
         ListNode rootHead = root;
